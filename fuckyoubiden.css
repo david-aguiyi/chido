@@ -53,7 +53,7 @@ body {
 
 .centered-text {
 	text-align: center;
-	font-size: 8rem;
+	font-size: 4rem;
 	font-weight: bold;
 	font-family: 'Warfare';
 	color: #ffd200;
@@ -65,7 +65,7 @@ body {
 
 .centered-text2 {
 	text-align: center;
-	font-size: 4rem;
+	font-size: 2rem;
 	font-family: 'Warfare';
 	display: flex;
 	/* letter-spacing: -3px; */
@@ -627,8 +627,8 @@ footer p {
 }
 
 .descript {
-	margin-top: 20px;
-	font-size: 2rem;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
 
 .buttons button {
@@ -1256,6 +1256,33 @@ img.right-img {
 		margin-top: 2rem;
 		justify-content: center;
 	}
+	.centered-text2 {
+	text-align: center;
+	font-size: 4rem;
+	font-family: 'Warfare';
+	display: flex;
+	/* letter-spacing: -3px; */
+	font-weight: 700;
+	justify-content: center;
+	align-items: center;
+}
+
+.centered-text {
+	text-align: center;
+	font-size: 8rem;
+	font-weight: bold;
+	font-family: 'Warfare';
+	color: #ffd200;
+	display: flex;
+	text-shadow: 0px 1px 0px rgb(241 17 0), 0px 2px 0px rgb(241 17 0), 0px 3px 0px rgb(241 17 0), 0px 4px 0px rgb(241 17 0), 0px 6px 0px rgb(241 17 0);
+	justify-content: center;
+	align-items: center;
+}
+
+.descript {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
 
 	.section-6 {
 		display: flex;
